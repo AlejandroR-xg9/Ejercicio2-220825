@@ -18,6 +18,17 @@ public class Salon{
         this.Horario = horario;
     }
     
+    @Override
+public String toString() {
+    return "Nombre: " + Nombre +
+        ", Encargado: " + Encargado +
+        ", Tipo de Salón: " + TipoDeSalon +
+        ", Tipo de Evento: " + TipoDeEvento +
+        ", Fecha: " + Fecha +
+        ", Horario: " + Horario;
+}
+
+    
     public String getNombre() {
         return Nombre;
     }
@@ -55,4 +66,3 @@ public class Salon{
         this.Horario = horario;
     }
 }
-

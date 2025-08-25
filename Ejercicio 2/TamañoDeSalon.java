@@ -1,5 +1,11 @@
 public class TamañoDeSalon{
     private String Tamaño;
+
+    @Override
+public String toString() {
+    return Tamaño;
+}
+
     public String getTamaño() {
         return Tamaño;
     }
